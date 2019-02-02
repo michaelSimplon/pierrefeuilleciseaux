@@ -6,16 +6,29 @@ body {
 header {
     text-align: center;
 }
+#XS {
+    display: none;
+}
+#mobile {
+    display: none;
+}
+#tablet {
+    display: none;
+}
+#desktop {
+    display: none;
+}
+#tv {
+    display: none;
+}
 h1 {
     text-align: center;
     margin-bottom: 0;
 
     font-family: 'Anton', sans-serif;
-    font-size: 4em;
+    font-size: 3em;
 }
-#desktop{
-    display: none;
-}
+
 .container{
     text-align: center;
     position: absolute;
@@ -25,35 +38,138 @@ h1 {
 button {
     background-color: #74b9ff;
     border-radius: 50%;
-    margin: 3em;
-    padding: 5em;
+    margin: 1em;
+    padding: 2em;
     cursor: pointer;
     outline: none;
-    box-shadow: 0em 2em 1em 0em #636e72;
+    box-shadow: 0em 1em 0.5em 0em #636e72;
     border: none;
     transition: all 0.2s ;
 }
 button:hover{
-    box-shadow: 0em 4em 1em 0em #636e72;
+    box-shadow: 0em 1.5em 0.5em 0em #636e72;
 
 }
 button:active{
-    box-shadow: 0em 2em 1em 0em #636e72;
-    transform: translateY(2em);
+    box-shadow: 0em 1em 1em 0em #636e72;
+    transform: translateY(1em);
 }
 i{
-    font-size: 10em;
+    font-size: 3em;
     color: white;
 }
 #pfc{
     display: none;
 }
 
-@media only screen and (min-width:900px) {
-    #desktop{
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    #XS {
         display: block;
     }
-    #mobile{
+    #mobile {
         display: none;
+    }
+    #tablet {
+        display: none;
+    }
+    #desktop {
+        display: none;
+    }
+    #tv {
+        display: none;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    #XS {
+        display: none;
+    }
+    #mobile {
+        display: block;
+    }
+    #tablet {
+        display: none;
+    }
+    #desktop {
+        display: none;
+    }
+    #tv {
+        display: none;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #XS {
+        display: none;
+    }
+    #mobile {
+        display: none;
+    }
+    #tablet {
+        display: block;
+    }
+    #desktop {
+        display: none;
+    }
+    #tv {
+        display: none;
+    }
+    button{
+        margin: 3em;
+        padding: 4em;
+
+    }
+    i{
+        font-size: 4em;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #XS {
+        display: none;
+    }
+    #mobile {
+        display: none;
+    }
+    #tablet {
+        display: none;
+    }
+    #desktop {
+        display: block;
+    }
+    #tv {
+        display: none;
+    }
+    button{
+        margin: 4em;
+        padding: 5em;
+    }
+    i{
+        font-size: 5em;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #XS {
+        display: none;
+    }
+    #mobile {
+        display: none;
+    }
+    #tablet {
+        display: none;
+    }
+    #desktop {
+        display: none;
+    }
+    #tv {
+        display: block;
     }
 }
