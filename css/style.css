@@ -60,7 +60,8 @@ i{
     display: none;
 }
 #result {
-    transition: all 0.2s ;
+    transition: all 0.5s ;
+    font-size: 2em;
 }
 
 /* Custom, iPhone Retina */
