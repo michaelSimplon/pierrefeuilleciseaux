@@ -7,18 +7,6 @@ header {
     text-align: center;
 }
 
-#mobile {
-    display: none;
-}
-#tablet {
-    display: none;
-}
-#desktop {
-    display: none;
-}
-#tv {
-    display: none;
-}
 h1 {
     text-align: center;
     margin-bottom: 0;
@@ -56,111 +44,37 @@ i{
     font-size: 3em;
     color: white;
 }
-#pfc{
-    display: none;
-}
+
 #result {
     transition: all 0.5s ;
     font-size: 2em;
 }
+
+
+/* MEDIA QUERIES
+*****************/
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
 
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-    #XS {
-        display: none;
-    }
-    #mobile {
-        display: block;
-    }
-    #tablet {
-        display: none;
-    }
-    #desktop {
-        display: none;
-    }
-    #tv {
-        display: none;
-    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    #XS {
-        display: none;
-    }
-    #mobile {
-        display: none;
-    }
-    #tablet {
-        display: block;
-    }
-    #desktop {
-        display: none;
-    }
-    #tv {
-        display: none;
-    }
-    button{
-        margin: 3em;
-        padding: 4em;
-
-    }
-    i{
-        font-size: 4em;
-    }
-    #result {
-        font-size: 3em;
-    }
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    #XS {
-        display: none;
-    }
-    #mobile {
-        display: none;
-    }
-    #tablet {
-        display: none;
-    }
-    #desktop {
-        display: block;
-    }
-    #tv {
-        display: none;
-    }
-    button{
-        margin: 4em;
-        padding: 5em;
-    }
-    i{
-        font-size: 5em;
-    }
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    #XS {
-        display: none;
-    }
-    #mobile {
-        display: none;
-    }
-    #tablet {
-        display: none;
-    }
-    #desktop {
-        display: none;
-    }
-    #tv {
-        display: block;
-    }
+
 }
