@@ -6,9 +6,7 @@ body {
 header {
     text-align: center;
 }
-#XS {
-    display: none;
-}
+
 #mobile {
     display: none;
 }
@@ -26,14 +24,12 @@ h1 {
     margin-bottom: 0;
 
     font-family: 'Anton', sans-serif;
-    font-size: 3em;
+    font-size:2em;
 }
 
 .container{
     text-align: center;
-    position: absolute;
-    top: 40%;
-    width: 100%;
+    margin-top: 3em;
 }
 button {
     background-color: #74b9ff;
@@ -45,6 +41,7 @@ button {
     box-shadow: 0em 1em 0.5em 0em #636e72;
     border: none;
     transition: all 0.2s ;
+    -webkit-tap-highlight-color: transparent;
 }
 button:hover{
     box-shadow: 0em 1.5em 0.5em 0em #636e72;
@@ -54,6 +51,7 @@ button:active{
     box-shadow: 0em 1em 1em 0em #636e72;
     transform: translateY(1em);
 }
+
 i{
     font-size: 3em;
     color: white;
@@ -61,24 +59,13 @@ i{
 #pfc{
     display: none;
 }
+#result {
+    transition: all 0.2s ;
+}
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    #XS {
-        display: block;
-    }
-    #mobile {
-        display: none;
-    }
-    #tablet {
-        display: none;
-    }
-    #desktop {
-        display: none;
-    }
-    #tv {
-        display: none;
-    }
+
 
 }
 

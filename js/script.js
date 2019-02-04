@@ -2,6 +2,7 @@
 var pierre = document.getElementById('pierre');
 var feuille = document.getElementById('feuille');
 var ciseaux = document.getElementById('ciseaux');
+var partie = document.getElementById('partie');
 var result = document.getElementById('result');
 var resultData = "";
 //éléments d'affichage
@@ -16,6 +17,16 @@ function display(){
 }
 play();
 
+//style
+function egalite(){
+    result.style.color = "yellow";
+}
+function win(){
+    result.style.color = "LightGreen";
+}
+function loose(){
+    result.style.color = "Coral";
+}
 
 //Mécaniques
 var choix = [pierre, feuille, ciseaux];
@@ -40,7 +51,21 @@ function jeu(){
             } else {
                 resultData = "Perdu";
             }
-            result.innerHTML = "Vous avez joué : "+ player + "<br> L'ordi a joué : " + ordi + "<br> Resultat : " + resultData;
+            partie.innerHTML = "Vous avez joué : "+ player + "<br> L'ordi a joué : " + ordi ;
+            result.innerHTML = " Resultat : " + resultData;
+            switch (resultData) {
+                case "Egalité":
+                    egalite();
+                    break;
+                case "Gagné":
+                    win();
+                    break;
+                case "Perdu":
+                    loose();
+                    break;
+                default:
+
+            }
 
         })
     }
