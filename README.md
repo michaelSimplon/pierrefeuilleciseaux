@@ -13,7 +13,8 @@ Pour cela, vous devrez :
 
 Fonctionnement(algorithme)
 
-Click sur un bouton(pierre feuille ou ciseaux)
+
+Click sur un bouton(pierre feuille ou ciseaux):
 
     -Lancer une fonction qui effectue les traitement suivants :
 
@@ -34,7 +35,7 @@ Click sur un bouton(pierre feuille ou ciseaux)
         -Afficher le choix de l'ordinateur et celui du joueur dans l'élément à l'id partie
 
         -Afficher le résultat dans l'élément à l'id result
-            
+
 
 # Mini exercice 1 : Récupérer un élément html et accéder à une partie de son contenu
 
