@@ -14,7 +14,7 @@ Pour cela, vous devrez :
 Fonctionnement(algorithme)
 
 
-Click sur un bouton(pierre feuille ou ciseaux):
+-Click sur un bouton(pierre feuille ou ciseaux):
 
     -Lancer une fonction qui effectue les traitement suivants :
 
