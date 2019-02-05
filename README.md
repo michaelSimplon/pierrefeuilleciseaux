@@ -70,4 +70,4 @@ Fonctionnement(algorithme)
 3. En fonction des tests, stockez la valeur "Egalité", "Gagné" ou "Perdu" dans résultat
 4. Affichez dans le h2 à l'id result, la valeur de résultat
 
-GG !!! Vous avez un jeu de pierre feuille ciseaux (et pleins de concepts javascript utiles en prime)
+## GG !!! Vous avez un jeu de pierre feuille ciseaux (et pleins de concepts javascript utiles en prime)
