@@ -11,6 +11,19 @@ Pour cela, vous devrez :
 ****************************************************************
 # Pas à pas
 
+Fonctionnement(algorithme)
+
+Click sur un bouton(pierre feuille ou ciseaux)
+    -Lancer une fonction qui effectue les traitement suivants :
+        -Stocker la valeur de l'élément cliqué
+        -Choisir aléatoirement un élément pour l'ordinateur
+        -Si le choix de l'utilisateur est le même que l'ordinateur
+            -alors stocker le résultat "Egalité" dans une variable
+        -Sinon si le joueur a choisi un élément qui l'emporte sur le choix de l'ordinateur
+                -alors stocker le résultat "Gagné" dans une variable
+        -Sinon stocker le résultat "Perdu" dans une variable
+        -Afficher le choix de l'ordinateur et celui du joueur dans l'élément à l'id partie
+        -Afficher le résultat dans l'élément à l'id result     
 
 # Mini exercice 1 : Récupérer un élément html et accéder à une partie de son contenu
 
