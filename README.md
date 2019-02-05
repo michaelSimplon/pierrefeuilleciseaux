@@ -3,10 +3,15 @@
 Vous devez réaliser un jeu à partir de 3 boutons : Pierre , Feuille , Ciseaux.
 
 Pour cela, vous devrez :
+
     -faire en sorte qu'en cliquant sur un bouton pierre, feuille ou ciseaux, Votre choix soit récupéré par javascript
+
     -Faire choisir à javascript au hasard pierre, feuille ou Ciseaux
+
     -Comparer le choix de l'ordi avec le Votre
+
     -Afficher le résultat de ce test : gagné, perdu ou égalité
+    
 
 ****************************************************************
 # Pas à pas
